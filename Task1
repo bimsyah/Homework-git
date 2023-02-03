@@ -21,3 +21,14 @@ Scenario test for BDD
         - And select your photo
         - And save the changes
         - Then user succesfully change the profile photo
+
+3. User Upload photo
+        - Given user is on home page
+        - When user click upload with the "+" logo
+        - And user select the photo
+        - And user click next
+        - And user can edit this photo
+        - And user click next
+        - And user can write the caption, tag people, add lcation, add music, and share to other application
+        - And user click share
+        - Then user succesfully upload the photo
